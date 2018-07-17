@@ -5,9 +5,11 @@ import java.util.Vector;
 import org.opencv.core.Mat;
 import org.opencv.core.Rect;
 
-public interface TextExtractor {
+public class TextExtractor {
 	
-	public Vector<Rect> getLetterBox();
+	public TextExtractor() {
+		
+	}
 	
-	public Vector<String> extractText(Mat image);
+
 }
